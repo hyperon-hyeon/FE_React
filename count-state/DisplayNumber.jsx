@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Display.module.css';
+import styles from './DisplayNUmber.module.css';
 
 //number 출력: 전달받은 number 값 출력
 function DisplayNumber({number}){
