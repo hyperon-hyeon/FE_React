@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import DisplayNumber from './DisplayNumber'
-import styles from './Display.module.css';
+import styles from './App.module.css';
 import './App.css'
 
 function App() {

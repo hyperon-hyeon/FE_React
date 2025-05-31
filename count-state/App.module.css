@@ -1,0 +1,12 @@
+.button{
+    margin:3px;
+    color:black;
+    background-color: rgb(230, 230, 230);
+}
+
+.div{
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    margin:50px;
+    padding:20px;
+}
