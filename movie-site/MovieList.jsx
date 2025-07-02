@@ -17,7 +17,12 @@ function MovieList() {
 
   return (
     <div>
-      <h2>Top 20</h2>
+      <header>
+        <div className={styles['header-content']}>
+          <h1 className={styles['header-text']}>오늘의 영화 랭킹</h1>
+          <h2>IMDb에서 선정한 20개의 영화를 확인해보세요!</h2>
+        </div>
+      </header>
       <ul className={styles.movie}>
         {movies.map((movie) => (
           <li key={movie.id} className={styles.movieList}>

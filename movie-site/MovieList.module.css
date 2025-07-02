@@ -1,26 +1,57 @@
-body{
-    background-color: black;
-    text-align: center;
+body {
+  background-color: #1a1a1a;
+  color: #fafafa;
+}
+
+h2{
+  font-size:40px;
+}
+
+header{
+    width:100%;
+    height:100vh;
+    background: #1a1a1a;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.header-content{
+    display: grid;
+    place-items: center;
     color:white;
 }
+
+
+h1.header-text {
+  color: red !important;
+}
+
 .movie {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
   gap: 20px;
   list-style: none;
-  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  margin-left:25px;
+  background-color: #1a1a1a;
+  padding-left:80px;
 }
 
+
 .movieList{
+  font-size: 20px;
   display: flex;
   flex-direction: column; 
   align-items: center;  
   text-align: center;  
+  width: 350px;
+  height:400px;
   padding: 10px;
-  background-color: #ababab;
-  color:white;
+  background-color: #1a1a1a;
+  color:#fafafa;
   border-radius: 6px;
   padding-bottom: 30px;
 }
